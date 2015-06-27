@@ -1,0 +1,20 @@
+{
+    "name": "sci/csv",
+    "description": "CSV library",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.0",
+        "sci/stream": "dev-master",
+        "sci/assert": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.6",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": { "Sci\\Csv\\": "lib/" }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
